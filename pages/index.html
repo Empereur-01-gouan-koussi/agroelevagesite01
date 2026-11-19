@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ferme des Prés Vivants : élevage respectueux, agriculture de saison et vente directe.">
+  <title>Ferme des Prés Vivants | Du champ à votre table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <!-- En-tete global : identite de la ferme et navigation principale. -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ferme des Prés Vivants, accueil">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span><strong>Prés Vivants</strong><small>ferme & élevage</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+      <a href="elevages.html">Nos élevages</a>
+      <a href="agriculture.html">Notre agriculture</a>
+      <a href="boutique.html">Boutique</a>
+      <a href="visites.html">Visites</a>
+      <a class="nav-cta" href="contact.html">Nous trouver</a>
+      <a class="nav-cta admin-link" href="admin.html">Espace admin</a>
+    </nav>
+  </header>
+
+  <main id="accueil">
+    <!-- Hero : promesse principale, appels a l'action et illustration de la ferme. -->
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Production locale · Depuis 1998</p>
+        <h1>Du champ à votre table, une agriculture <em>vivante.</em></h1>
+        <p class="hero-lead">À la Ferme des Prés Vivants, nous cultivons la terre et élevons nos animaux avec patience, transparence et respect du vivant.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="boutique.html">Découvrir nos produits <span>↗</span></a>
+          <a class="text-link" href="visites.html">Réserver une visite <span>→</span></a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Retrait des commandes le vendredi, de 16h à 19h</div>
+      </div>
+      <div class="hero-art reveal delay-1" aria-label="Illustration d'un paysage agricole avec une vache dans un pâturage">
+        <div class="sun"></div>
+        <div class="hill hill-back"></div>
+        <div class="hill hill-front"></div>
+        <div class="barn"><span></span></div>
+        <div class="cow"><i></i><b></b><strong></strong></div>
+        <div class="grass grass-one"></div><div class="grass grass-two"></div>
+        <p class="art-caption">Le pré des vaches allaitantes<br><small>à l’aube, côté verger</small></p>
+      </div>
+    </section>
+
+    <!-- Presentation narrative de l'exploitation. -->
+    <section class="intro section-shell reveal">
+      <div class="section-label">01 / La ferme</div>
+      <div class="intro-grid">
+        <h2>Une ferme à taille humaine, tournée vers <em>l’essentiel.</em></h2>
+        <div><p>Notre exploitation est un lieu de travail, de transmission et de partage. Nous y produisons des légumes de saison et élevons des vaches, des moutons et des poules pondeuses.</p><p>Chaque jour, nous cherchons le juste équilibre entre la terre, les animaux et les personnes qui font vivre la ferme.</p><a class="text-link" href="#contact">Découvrir notre histoire <span>→</span></a></div>
+      </div>
+    </section>
+
+    <!-- Acces rapide aux differents elevages. -->
+    <section id="elevages" class="dark-band">
+      <div class="section-shell">
+        <div class="section-heading reveal"><div><div class="section-label light">02 / Nos élevages</div><h2>Des animaux élevés<br><em>avec attention.</em></h2></div><p>Chaque espèce a son rythme, ses besoins et sa place dans l’équilibre de la ferme.</p></div>
+        <div class="animal-grid">
+          <article class="animal-card cow-card reveal"><div class="animal-icon">♧</div><h3>Vaches</h3><p>Allaitantes et laitières, elles profitent des pâtures et d’une alimentation adaptée aux saisons.</p><a href="#contact">En savoir plus <span>→</span></a></article>
+          <article class="animal-card sheep-card reveal delay-1"><div class="animal-icon">◌</div><h3>Moutons</h3><p>Un élevage en plein air, au rythme de l’herbe, du troupeau et des soins quotidiens.</p><a href="#contact">En savoir plus <span>→</span></a></article>
+          <article class="animal-card hen-card reveal delay-2"><div class="animal-icon">✦</div><h3>Poules pondeuses</h3><p>Des œufs frais issus de poules suivies avec attention et accueillies dans un environnement soigné.</p><a href="#boutique">Voir les œufs <span>→</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engagements agricoles et pratiques saisonnieres. -->
+    <section id="agriculture" class="season section-shell">
+      <div class="season-visual reveal"><div class="season-stamp">cultivé<br>ici</div><div class="crate"><span>SAISON</span><strong>du champ<br>à la table</strong></div></div>
+      <div class="season-copy reveal delay-1"><div class="section-label">03 / Notre agriculture</div><h2>Des cultures au rythme <em>des saisons.</em></h2><p>Semer, observer, récolter. Nous produisons localement des légumes qui suivent le cycle naturel des cultures, en prenant soin des sols et des ressources.</p><div class="values"><span><b>01</b> Sols vivants</span><span><b>02</b> Eau préservée</span><span><b>03</b> Biodiversité</span></div><a class="button button-outline" href="#boutique">Voir les récoltes du moment <span>↗</span></a></div>
+    </section>
+
+    <!-- Produits disponibles : les boutons alimentent le panier local. -->
+    <section id="boutique" class="shop section-shell">
+      <div class="shop-top reveal"><div><div class="section-label">04 / Vente directe</div><h2>Le panier de la<br><em>semaine.</em></h2></div><p>Commandez en ligne, puis venez récupérer vos produits à la ferme. Les disponibilités suivent les récoltes et la vie de l’élevage.</p></div>
+      <div class="product-grid">
+        <article class="product reveal"><div class="product-image eggs"><span>œufs frais</span></div><div class="product-info"><div><h3>Œufs plein air</h3><small>Boîte de 6 · disponible</small></div><strong>3,20 €</strong></div><button class="add-product" data-product="Œufs plein air">Ajouter au panier</button></article>
+        <article class="product reveal delay-1"><div class="product-image vegetables"><span>récolte du jour</span></div><div class="product-info"><div><h3>Panier de saison</h3><small>Environ 5 kg · disponible</small></div><strong>18 €</strong></div><button class="add-product" data-product="Panier de saison">Ajouter au panier</button></article>
+        <article class="product reveal delay-2"><div class="product-image meat"><span>élevé ici</span></div><div class="product-info"><div><h3>Colis de bœuf</h3><small>Viande sous vide · sur réservation</small></div><strong>à partir de 52 €</strong></div><button class="add-product" data-product="Colis de bœuf">Être informé</button></article>
+      </div>
+      <div class="cart-notice" role="status" aria-live="polite"></div>
+    </section>
+
+    <!-- Presentation des visites pedagogiques. -->
+    <section id="visites" class="visit-band">
+      <div class="section-shell visit-inner"><div class="visit-copy reveal"><div class="section-label light">05 / À la ferme</div><h2>Venez voir ce qui donne<br>du goût aux <em>choses.</em></h2><p>Lors d’une visite pédagogique, observez les animaux, découvrez les cultures et échangez avec celles et ceux qui font vivre la ferme.</p><a class="button button-light" href="#contact">Réserver une visite <span>↗</span></a></div><div class="visit-facts reveal delay-1"><div><strong>1h30</strong><span>de découverte</span></div><div><strong>Familles</strong><span>& groupes scolaires</span></div><div><strong>Sur réservation</strong><span>toute l’année</span></div></div></div>
+    </section>
+
+    <section class="quotes section-shell reveal"><div class="section-label">06 / Ils en parlent</div><div class="quote-content"><blockquote>“On repart avec un panier plein, mais surtout avec le sentiment de savoir enfin d’où viennent nos produits.”</blockquote><p>— Claire M., cliente depuis 2022</p></div><div class="quote-dots"><span class="active"></span><span></span><span></span></div></section>
+
+    <section id="contact" class="contact section-shell"><div class="contact-copy reveal"><div class="section-label">07 / Parlons-nous</div><h2>Une question, une visite,<br>un panier à <em>préparer ?</em></h2><p>Écrivez-nous. Nous vous répondrons du lundi au vendredi, avec les disponibilités de la ferme.</p><div class="contact-details"><span>✉ bonjour@presvivants.fr</span><span>⌂ 12 chemin des Prés, 00000 Votre commune</span></div></div><form class="contact-form reveal delay-1"><label>Votre nom<input type="text" name="name" placeholder="Prénom Nom" required></label><label>Votre email<input type="email" name="email" placeholder="vous@exemple.fr" required></label><label>Votre message<textarea name="message" rows="4" placeholder="Je souhaite..." required></textarea></label><button class="button button-primary" type="submit">Envoyer le message <span>↗</span></button><p class="form-message" role="status"></p></form></section>
+  </main>
+
+  <footer class="site-footer"><div class="section-shell footer-inner"><div class="brand"><span class="brand-mark">✦</span><span><strong>Prés Vivants</strong><small>ferme & élevage</small></span></div><p>Une agriculture locale, un élevage attentif,<br>des produits qui ont une histoire.</p><div class="footer-links"><a href="elevages.html">Élevages</a><a href="boutique.html">Boutique</a><a href="contact.html">Contact</a></div><small class="copyright">© 2026 Prés Vivants</small></div></footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>
